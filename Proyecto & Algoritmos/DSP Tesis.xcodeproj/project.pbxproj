@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D720AA3C236762330012A3C4 /* DFT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D720AA3B236762330012A3C4 /* DFT.cpp */; };
+		D720AA3E236814080012A3C4 /* IDFT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D720AA3D236814080012A3C4 /* IDFT.cpp */; };
+		D73EEB962362C07B007ACDB6 /* Convolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D73EEB952362C07B007ACDB6 /* Convolution.cpp */; };
+		D73EEB982363E701007ACDB6 /* Robust_Convolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D73EEB972363E701007ACDB6 /* Robust_Convolution.cpp */; };
+		D740FC5823748B920068D8B4 /* Windowed_sync_low_pass_filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D740FC5723748B920068D8B4 /* Windowed_sync_low_pass_filter.cpp */; };
+		D74A97BD236015F900D795DE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D74A97BC236015F900D795DE /* main.cpp */; };
+		D74A97C42360163000D795DE /* Signal_Statistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D74A97C32360163000D795DE /* Signal_Statistics.cpp */; };
+		D75C82052360861C00452252 /* Robust_mean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D75C82042360861C00452252 /* Robust_mean.cpp */; };
+		D7601978237BD4A2006AEC69 /* waveform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7601977237BD4A2006AEC69 /* waveform.cpp */; };
+		D7608EAB2377EF7A00159B16 /* FFT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7608EAA2377EF7A00159B16 /* FFT.cpp */; };
+		D77F999C237159CB00BBA62F /* Moving_average_filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D77F999B237159CB00BBA62F /* Moving_average_filter.cpp */; };
+		D7B46926237220F80004D97E /* Recursive_moving_average.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7B46925237220F80004D97E /* Recursive_moving_average.cpp */; };
+		D7C4D8182361EA1B0000FB13 /* Robust_rms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C4D8172361EA1B0000FB13 /* Robust_rms.cpp */; };
+		D7C91D9B237F0C7C00E89597 /* Signal_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C91D9A237F0C7C00E89597 /* Signal_generator.cpp */; };
+		D7CF87D02361714A007DAE9B /* Robust_Standard_Deviation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7CF87CF2361714A007DAE9B /* Robust_Standard_Deviation.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D74A97B7236015F900D795DE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D720AA3B236762330012A3C4 /* DFT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DFT.cpp; sourceTree = "<group>"; };
+		D720AA3D236814080012A3C4 /* IDFT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IDFT.cpp; sourceTree = "<group>"; };
+		D73EEB952362C07B007ACDB6 /* Convolution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Convolution.cpp; sourceTree = "<group>"; };
+		D73EEB972363E701007ACDB6 /* Robust_Convolution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Robust_Convolution.cpp; sourceTree = "<group>"; };
+		D740FC5723748B920068D8B4 /* Windowed_sync_low_pass_filter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Windowed_sync_low_pass_filter.cpp; sourceTree = "<group>"; };
+		D74A97B9236015F900D795DE /* DSP Tesis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DSP Tesis"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74A97BC236015F900D795DE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D74A97C32360163000D795DE /* Signal_Statistics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Signal_Statistics.cpp; sourceTree = "<group>"; };
+		D75C82042360861C00452252 /* Robust_mean.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Robust_mean.cpp; sourceTree = "<group>"; };
+		D7601977237BD4A2006AEC69 /* waveform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = waveform.cpp; path = ../../DFT/DFT/waveform.cpp; sourceTree = "<group>"; };
+		D7608EAA2377EF7A00159B16 /* FFT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FFT.cpp; sourceTree = "<group>"; };
+		D77F999B237159CB00BBA62F /* Moving_average_filter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Moving_average_filter.cpp; sourceTree = "<group>"; };
+		D7B46925237220F80004D97E /* Recursive_moving_average.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Recursive_moving_average.cpp; sourceTree = "<group>"; };
+		D7C4D8172361EA1B0000FB13 /* Robust_rms.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Robust_rms.cpp; sourceTree = "<group>"; };
+		D7C91D9A237F0C7C00E89597 /* Signal_generator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Signal_generator.cpp; sourceTree = "<group>"; };
+		D7CF87CF2361714A007DAE9B /* Robust_Standard_Deviation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Robust_Standard_Deviation.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D74A97B6236015F900D795DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D74A97B0236015F900D795DE = {
+			isa = PBXGroup;
+			children = (
+				D74A97BB236015F900D795DE /* DSP Tesis */,
+				D74A97BA236015F900D795DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D74A97BA236015F900D795DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D74A97B9236015F900D795DE /* DSP Tesis */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D74A97BB236015F900D795DE /* DSP Tesis */ = {
+			isa = PBXGroup;
+			children = (
+				D74A97BC236015F900D795DE /* main.cpp */,
+				D7C91D9A237F0C7C00E89597 /* Signal_generator.cpp */,
+				D740FC5723748B920068D8B4 /* Windowed_sync_low_pass_filter.cpp */,
+				D74A97C32360163000D795DE /* Signal_Statistics.cpp */,
+				D73EEB952362C07B007ACDB6 /* Convolution.cpp */,
+				D73EEB972363E701007ACDB6 /* Robust_Convolution.cpp */,
+				D720AA3B236762330012A3C4 /* DFT.cpp */,
+				D720AA3D236814080012A3C4 /* IDFT.cpp */,
+				D7CF87CF2361714A007DAE9B /* Robust_Standard_Deviation.cpp */,
+				D75C82042360861C00452252 /* Robust_mean.cpp */,
+				D77F999B237159CB00BBA62F /* Moving_average_filter.cpp */,
+				D7B46925237220F80004D97E /* Recursive_moving_average.cpp */,
+				D7C4D8172361EA1B0000FB13 /* Robust_rms.cpp */,
+				D7608EAA2377EF7A00159B16 /* FFT.cpp */,
+				D7601977237BD4A2006AEC69 /* waveform.cpp */,
+			);
+			path = "DSP Tesis";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D74A97B8236015F900D795DE /* DSP Tesis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74A97C0236015F900D795DE /* Build configuration list for PBXNativeTarget "DSP Tesis" */;
+			buildPhases = (
+				D74A97B5236015F900D795DE /* Sources */,
+				D74A97B6236015F900D795DE /* Frameworks */,
+				D74A97B7236015F900D795DE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DSP Tesis";
+			productName = "DSP Tesis";
+			productReference = D74A97B9236015F900D795DE /* DSP Tesis */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D74A97B1236015F900D795DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Carlos Segovia";
+				TargetAttributes = {
+					D74A97B8236015F900D795DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D74A97B4236015F900D795DE /* Build configuration list for PBXProject "DSP Tesis" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D74A97B0236015F900D795DE;
+			productRefGroup = D74A97BA236015F900D795DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D74A97B8236015F900D795DE /* DSP Tesis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D74A97B5236015F900D795DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D720AA3E236814080012A3C4 /* IDFT.cpp in Sources */,
+				D74A97C42360163000D795DE /* Signal_Statistics.cpp in Sources */,
+				D75C82052360861C00452252 /* Robust_mean.cpp in Sources */,
+				D7C4D8182361EA1B0000FB13 /* Robust_rms.cpp in Sources */,
+				D7C91D9B237F0C7C00E89597 /* Signal_generator.cpp in Sources */,
+				D7601978237BD4A2006AEC69 /* waveform.cpp in Sources */,
+				D7B46926237220F80004D97E /* Recursive_moving_average.cpp in Sources */,
+				D74A97BD236015F900D795DE /* main.cpp in Sources */,
+				D73EEB962362C07B007ACDB6 /* Convolution.cpp in Sources */,
+				D73EEB982363E701007ACDB6 /* Robust_Convolution.cpp in Sources */,
+				D720AA3C236762330012A3C4 /* DFT.cpp in Sources */,
+				D7608EAB2377EF7A00159B16 /* FFT.cpp in Sources */,
+				D740FC5823748B920068D8B4 /* Windowed_sync_low_pass_filter.cpp in Sources */,
+				D7CF87D02361714A007DAE9B /* Robust_Standard_Deviation.cpp in Sources */,
+				D77F999C237159CB00BBA62F /* Moving_average_filter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D74A97BE236015F900D795DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D74A97BF236015F900D795DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D74A97C1236015F900D795DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D74A97C2236015F900D795DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D74A97B4236015F900D795DE /* Build configuration list for PBXProject "DSP Tesis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74A97BE236015F900D795DE /* Debug */,
+				D74A97BF236015F900D795DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74A97C0236015F900D795DE /* Build configuration list for PBXNativeTarget "DSP Tesis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74A97C1236015F900D795DE /* Debug */,
+				D74A97C2236015F900D795DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D74A97B1236015F900D795DE /* Project object */;
+}
